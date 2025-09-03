@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="1;url=https://intranet.almabank.com/"> <!-- Redirect after 1 seconds -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting...</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #f9f9f9;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+    }
+    img {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      color: #333;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+    .spinner {
+      margin-top: 20px;
+      width: 40px;
+      height: 40px;
+      border: 4px solid #ddd;
+      border-top: 4px solid #0077b6;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <img src="https://go.almabank.com/alma_logo.png" alt="Alma Bank Logo">
+  <h1>Authentication in Process</h1>
+  <div class="spinner"></div>
+</body>
+</html>
